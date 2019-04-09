@@ -49,7 +49,7 @@ formatter.match({
   "location": "PredefinedStepDefinitions.navigate_to(String)"
 });
 formatter.result({
-  "duration": 4619149249,
+  "duration": 3937696965,
   "status": "passed"
 });
 formatter.match({
@@ -70,7 +70,7 @@ formatter.match({
   "location": "PredefinedStepDefinitions.enter_text(String,String,String)"
 });
 formatter.result({
-  "duration": 71116956,
+  "duration": 57841303,
   "status": "passed"
 });
 formatter.match({
@@ -91,7 +91,7 @@ formatter.match({
   "location": "PredefinedStepDefinitions.enter_text(String,String,String)"
 });
 formatter.result({
-  "duration": 45554005,
+  "duration": 42406773,
   "status": "passed"
 });
 formatter.match({
@@ -108,7 +108,7 @@ formatter.match({
   "location": "PredefinedStepDefinitions.click(String,String)"
 });
 formatter.result({
-  "duration": 437438143,
+  "duration": 389749593,
   "status": "passed"
 });
 formatter.match({
@@ -129,7 +129,7 @@ formatter.match({
   "location": "PredefinedStepDefinitions.wait_for_ele_to_display(String,String,String)"
 });
 formatter.result({
-  "duration": 60206553,
+  "duration": 49568832,
   "status": "passed"
 });
 });
