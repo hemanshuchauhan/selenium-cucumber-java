@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="stepDefintions.RunCukeTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="stepDefintions.RunCukeTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib"/>
@@ -26,7 +26,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/hemchauh/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf16888629051188288865.tmp"/>
+    <property name="classworlds.conf" value="/Users/hemchauh/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf11628453703348156398.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/hemchauh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -39,7 +39,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="hemchauh"/>
-    <property name="java.class.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.9.0.20180606-2035/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.11.0.20190220-2117/jars/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre"/>
@@ -64,5 +64,6 @@
   <testcase classname="Scenario: I login with valid credential" name="And I enter &quot;SuperSecretPassword!&quot; into input field having id &quot;password&quot;" time="0"/>
   <testcase classname="Scenario: I login with valid credential" name="When I click on element having class &quot;radius&quot;" time="0"/>
   <testcase classname="Scenario: I login with valid credential" name="Then I wait 5 seconds for element having css &quot;a[href=&apos;/logout&apos;]&quot; to display" time="0"/>
-  <testcase classname="Scenario: I login with valid credential" name="Scenario: I login with valid credential" time="0.001"/>
+  <testcase classname="Scenario: I login with valid credential" name="And I close browser" time="0"/>
+  <testcase classname="Scenario: I login with valid credential" name="Scenario: I login with valid credential" time="0"/>
 </testsuite>

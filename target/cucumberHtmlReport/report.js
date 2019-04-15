@@ -39,6 +39,11 @@ formatter.step({
   "name": "I wait 5 seconds for element having css \"a[href\u003d\u0027/logout\u0027]\" to display",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 10,
+  "name": "I close browser",
+  "keyword": "And "
+});
 formatter.match({
   "arguments": [
     {
@@ -49,7 +54,7 @@ formatter.match({
   "location": "PredefinedStepDefinitions.navigate_to(String)"
 });
 formatter.result({
-  "duration": 3937696965,
+  "duration": 5784977989,
   "status": "passed"
 });
 formatter.match({
@@ -70,7 +75,7 @@ formatter.match({
   "location": "PredefinedStepDefinitions.enter_text(String,String,String)"
 });
 formatter.result({
-  "duration": 57841303,
+  "duration": 71076295,
   "status": "passed"
 });
 formatter.match({
@@ -91,7 +96,7 @@ formatter.match({
   "location": "PredefinedStepDefinitions.enter_text(String,String,String)"
 });
 formatter.result({
-  "duration": 42406773,
+  "duration": 68353328,
   "status": "passed"
 });
 formatter.match({
@@ -108,7 +113,7 @@ formatter.match({
   "location": "PredefinedStepDefinitions.click(String,String)"
 });
 formatter.result({
-  "duration": 389749593,
+  "duration": 484027004,
   "status": "passed"
 });
 formatter.match({
@@ -129,7 +134,14 @@ formatter.match({
   "location": "PredefinedStepDefinitions.wait_for_ele_to_display(String,String,String)"
 });
 formatter.result({
-  "duration": 49568832,
+  "duration": 59883712,
+  "status": "passed"
+});
+formatter.match({
+  "location": "PredefinedStepDefinitions.close_browser()"
+});
+formatter.result({
+  "duration": 457317091,
   "status": "passed"
 });
 });

@@ -7,3 +7,4 @@ Feature: Gmail Login
     And I enter "SuperSecretPassword!" into input field having id "password"
     When I click on element having class "radius"
     Then I wait 5 seconds for element having css "a[href='/logout']" to display
+    And I close browser
